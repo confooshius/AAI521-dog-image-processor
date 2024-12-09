@@ -34,7 +34,9 @@ Size of the Dataset: 9346 total images. ~ 225 MB to download. There is also a di
 
 We wanted to explore different types of training to ensure we could pick the best one for our modeling. We tried two pre-trained models, VGG and RESNET50, and one out of the box CNN model. We also explored adjusting parameters for the pre-trained models, and performed preprocessing on the images prior to training. We wanted to know if we could have a model that performed well for our task of identifying dogs. 
 
-[add evaluation, data analysis etc. discussion here; any roadblocks, challenges, etc.]
+To perform evaluation, we generated data from the sklearn library, in particular confusion matrix and classification report to show how the models would perform for each breed of dog and overall accuracy. Looking at the data, VGG model had the best performance overall for each breed with CNN performing second best. Resnet 50 had the most issues in evaluation step which if we had more time, we would explore with additional adjustments to hyperparameters, datasets, etc.
+
+We encountered some minor roadblocks in processing the dataset/initial setup, but after we reached training step it was more smooth. Colab was an important tool in terms of resources for training which helped to speed along training/evaluation.
 
 License
 

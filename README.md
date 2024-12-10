@@ -23,10 +23,10 @@ Methods Used
 
 Technologies
 ⦁	Python
-⦁	Tensorflow libraries
+⦁	Tensorflow
 ⦁	MatPlot (graphing libraries)
-⦁	sklearn libraries (evaluation of models)
-
+⦁	scikit-learn libraries (evaluation of models)
+⦁	Keras (high lvl API used with tensorflow)
 
 Project Description
 

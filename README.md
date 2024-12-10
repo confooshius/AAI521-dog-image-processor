@@ -24,6 +24,8 @@ Methods Used
 Technologies
 ⦁	Python
 ⦁	Tensorflow libraries
+⦁	MatPlot (graphing libraries)
+⦁	sklearn libraries (evaluation of models)
 
 
 Project Description
